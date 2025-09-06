@@ -1,0 +1,102 @@
+/* Estilo general */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f0f6ff;
+  color: #1a1a1a;
+}
+
+/* Encabezado */
+header {
+  background: #004aad;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+/* Sección de personas */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.persona {
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  width: 80%;
+  max-width: 800px;
+  padding: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.persona:hover {
+  transform: scale(1.02);
+}
+
+.persona img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 1.5rem;
+  border: 3px solid #004aad;
+}
+
+.persona .info h2 {
+  color: #004aad;
+  margin-top: 0;
+}
+
+.persona .info p {
+  margin: 0.3rem 0;
+}
+
+/* Footer */
+footer {
+  background: #002b66;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+
+.boton-volver {
+  margin-top: 1rem;
+}
+
+.boton-volver {
+  margin-top: 1rem;
+  text-align: center; 
+}
+
+.boton-volver a {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #004aad; 
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.boton-volver a:hover {
+  background: #0066cc;
+  transform: scale(1.05);
+}
+

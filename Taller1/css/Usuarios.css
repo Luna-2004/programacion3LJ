@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f6f8;
+}
+
+.usuarios-satisfechos {
+  text-align: center;
+  padding: 1px 20px;
+  background: #fff;
+  box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+}
+
+.usuarios-satisfechos h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #367cd8;
+}
+
+.usuarios-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.usuario-card {
+  background: #fefefe;
+  padding: 20px;
+  width: 280px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.usuario-card:hover {
+  transform: translateY(-5px);
+}
+
+.icono-usuario {
+  font-size: 50px;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.usuario-card h3 {
+  margin: 10px 0;
+  font-size: 20px;
+  color: #444;
+}
+
+.usuario-card p {
+  font-size: 15px;
+  color: #666;
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+
+.estrellas i {
+  color: #f1c40f;
+  font-size: 18px;
+}
+
+
+/* Botón volver */
+.boton-volver {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.boton-volver a {
+  display: inline-block;
+  padding: 10px 24px;
+  background: #0056b3;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 1.3em;
+  transition: background 0.3s ease;
+}
+
+.boton-volver a:hover {
+  background: #003f7f;
+}
